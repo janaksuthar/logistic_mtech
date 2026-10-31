@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the trained model
-model = joblib.load('logistic.sav')
+model = joblib.load('decision_tree.sav')
 
 st.title('🚚 Delivery Delay Predictor')
 st.write('Fill in the details below to predict if a delivery will be delayed.')
